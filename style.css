@@ -1,0 +1,1275 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+p {margin: 0; padding: 0; width: fit-content; height: fit-content;}
+body, html, hr {padding: 0; margin: 0; width: 100%;}
+div {width: fit-content; height: fit-content;}
+
+.MenuBar
+{
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 20px 40px 0px rgba(255, 174, 0, 0.29), 0px 5px 10px 0px rgba(255, 174, 0, 0.26);
+    width: 100%;
+    height: 76px;
+    gap: 211px;
+}
+.MenuBar .logo
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+.MenuBar .img
+{
+    width: 28px;
+    height: 30px;
+}
+.MenuBar .foodwagon
+{
+    display: flex;
+}
+.MenuBar .a
+{
+    color: rgba(241, 114, 40, 1);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 31.11px;
+    line-height: 120%;
+    letter-spacing: -2.5%;
+}
+.MenuBar .foodwagon .b
+{
+    color: rgba(255, 179, 14, 1);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 31.11px;
+    line-height: 120%;
+    letter-spacing: -2%;
+}
+.MenuBar .address
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+.MenuBar .deliver
+{
+    color: rgba(66, 66, 66, 1);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.MenuBar .direction
+{
+    display: flex;
+}
+.MenuBar .direction .a
+{
+    color: rgba(255, 179, 14, 1);
+    font-family: Font Awesome 5 Free;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.MenuBar .direction .b
+{
+    color: rgba(66, 66, 66, 1);
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-left: 9px;
+}
+.MenuBar .direction .c
+{
+    color: rgba(66, 66, 66, 1);
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-left: 4px;
+}
+.MenuBar .searchloginbutton
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.MenuBar .searchButton
+{
+    display: flex;
+    gap: 8px;
+}
+.MenuBar .searchIcon
+{
+    width: 18px;
+    height: 18px;
+}
+.MenuBar .searchInput
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.MenuBar .inputButton
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 20px 40px 0px rgba(255, 174, 0, 0.29), 0px 5px 10px 0px rgba(255, 174, 0, 0.26);
+    width: 118px;
+    height: 46px;
+    border-radius: 8px;
+    gap: 10px;
+}
+.MenuBar .avata
+{
+    width: 16px;
+    height: 18px;
+}
+.MenuBar .loginButton
+{
+    background-image: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.Header
+{
+    background-image: url('header_backgr.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 620px;
+    gap: 121px;
+    overflow: hidden;
+}
+.Header .Title-OrderCard
+{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.Header .Title
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.Header .Title .a
+{
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 27px 82px 0px rgba(255, 174, 0, 0.28), 0px 14px 15px 0px rgba(255, 174, 0, 0.01);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 88px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.Header .Title .b
+{
+    color: rgba(80, 79, 79, 1);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.Header .OrderCard
+{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 20px 40px 0px rgba(255, 174, 0, 0.29), 0px 5px 10px 0px rgba(255, 174, 0, 0.26);
+    border-radius: 16px;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+.Header .top
+{
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    width: 856px;
+    gap: 8px;
+    padding: 24px;
+}
+.Header .tab1 
+{
+    background: rgba(241, 114, 40, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 148px;
+    height: 38px;
+    border-radius: 8px;
+    gap: 10px;
+}
+.Header .icon-delivery
+{
+    width: 23px;
+    height: 18px;
+}
+.Header .text-delivery
+{
+    color: rgba(241, 114, 40, 1);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.Header .tab2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 129px;
+    height: 38px;
+    gap: 10px;
+}
+.Header .icon-pickup
+{
+    width: 16px;
+    height: 18px;
+}
+.Header .text-pickup
+{
+    color: rgba(117, 117, 117, 1);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.Header .line
+{
+    border-width: 1px;
+    border: 1px solid rgba(238, 238, 238, 1);
+}
+.Header .bottom
+{
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    width: 856px;
+    gap: 10px;
+    padding: 24px;
+
+}
+.Header .inputAddre
+{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.Header .textField
+{
+    background: rgba(245, 245, 245, 1);
+    display: flex;
+    align-items: center;
+    width: 593px;
+    height: 49px;
+    border-radius: 8px;
+    gap: 12px;
+}
+.Header .textField img
+{
+    width: 18px;
+    height: 34px;
+    margin-left: 16px;
+}
+.Header .textField p
+{
+    color: rgba(158, 158, 158, 1);
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0%;
+}
+.Header .Button
+{
+    background: linear-gradient(95.71deg, #FF7A7A -39.64%, #F75900 135.31%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 60px;
+    border-radius: 8px;
+    gap: 10px;
+}
+.Header .Button img
+{
+    width: 14px;
+    height: 14px;
+}
+.Header .Button p
+{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.Header .img
+{
+    width: 497px;
+    height: 497px;
+    transform: translate(0, 115px);
+}
+.FlashDeals
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 575px;
+    gap: 16px;
+}
+.FlashDeals .FlashDealCard
+{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.FlashDeals .img
+{
+    width: 357px;
+    height: 300px;
+    border-radius: 16px;
+}
+.FlashDeals .Texts-Badge
+{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.FlashDeals .text
+{
+    color: rgba(66, 66, 66, 1);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.FlashDeals .badge
+{
+    background: rgba(241, 114, 40, 0.2);
+    color: rgba(241, 114, 40, 1);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+.HowDoesItWork
+{
+    background: linear-gradient(180deg, rgba(255, 206, 103, 0.22) -42.47%, rgba(253, 237, 202, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 502px;
+    gap: 55px;
+}
+.HowDoesItWork .Title
+{
+    color: rgba(241, 114, 40, 1);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 112%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.HowDoesItWork .Features_HowDoesItWork
+{
+    display: flex;
+    gap: 32px;
+}
+.HowDoesItWork .Frames
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 41px;
+}
+.HowDoesItWork .icon
+{
+    width: 86px;
+    height: 112px;
+}
+.HowDoesItWork .Texts
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.HowDoesItWork .title
+{
+    color: rgba(67, 67, 67, 1);
+    width: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.HowDoesItWork .body
+{
+    color: rgba(158, 158, 158, 1);
+    width: auto;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.PopularItems
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 765px;
+}
+.PopularItems .Title-Cards
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 88px;
+}
+.PopularItems .title
+{
+    color: rgba(33, 33, 33, 1);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 112.00000000000001%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.PopularItems .Cards
+{
+    display: flex;
+    gap: 16px;
+}
+.PopularItems .Card
+{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.PopularItems .img
+{
+    width: 283px;
+    height: 283px;
+    border-radius: 16px;
+}
+.PopularItems .Name-Location-Price
+{
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+.PopularItems .name
+{
+    color: rgba(66, 66, 66, 1);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.PopularItems .location
+{
+    display: flex;
+    gap: 8px;
+}
+.PopularItems .location img
+{
+    width: 14px;
+    height: 22px;
+}
+.PopularItems .location p
+{
+    color: rgba(255, 179, 14, 1);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.PopularItems .price
+{
+    color: rgba(33, 33, 33, 1);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.PopularItems .button
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(241, 114, 40, 1);
+    box-shadow: 0px 20px 40px 0px rgba(250, 99, 35, 0.24), 0px 5px 10px 0px rgba(253, 114, 92, 0.22);
+    width: 283px;
+    height: 60px;
+    border-radius: 8px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.FeaturedRestaurant
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    height: 1434px;
+    gap: 88px;
+}
+.FeaturedRestaurant .Title
+{
+    color: rgba(33, 33, 33, 1);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 112.00000000000001%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.FeaturedRestaurant .Cards
+{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+.FeaturedRestaurant .Top, .Bottom
+{
+    display: flex;
+    gap: 16px;
+}
+.FeaturedRestaurant .Card
+{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.FeaturedRestaurant .food_photo
+{
+    width: 356px;
+    height: 300px;
+    border-radius: 16px;
+}
+.FeaturedRestaurant .Image-Name-Review-Badge
+{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.FeaturedRestaurant .Image-Name-Review
+{
+    display: flex;
+    gap: 24px;
+}
+.FeaturedRestaurant .restaruant_logo
+{
+    width: 64px;
+    height: 64px;
+}
+.FeaturedRestaurant .Name-Review
+{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.FeaturedRestaurant .name
+{
+    color: rgba(66, 66, 66, 1);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.FeaturedRestaurant .Review
+{
+    display: flex;
+    gap: 8px;
+}
+.FeaturedRestaurant .icon
+{
+    width: 25px;
+    height: 23px;
+}
+.FeaturedRestaurant .text
+{
+    color: rgba(255, 179, 14, 1);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.FeaturedRestaurant .badge_tomorrow
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(241, 114, 40, 1);
+    background: rgba(241, 114, 40, 0.2);
+    width: 196px;
+    height: 42px;
+    border-radius: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.FeaturedRestaurant .badge_now
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(121, 185, 60, 1);
+    background: rgba(121, 185, 60, 0.2);
+    width: 132px;
+    height: 42px;
+    border-radius: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.FeaturedRestaurant .Button
+{
+    background: linear-gradient(97.86deg, #FFBA26 -8.95%, #FF9A0E 109.24%);
+    box-shadow: 0px 20px 40px 0px rgba(255, 174, 0, 0.29), 0px 5px 10px 0px rgba(255, 174, 0, 0.26);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 178px;
+    height: 60px;
+    border-radius: 14px;
+    gap: 10px;
+}
+.FeaturedRestaurant .Button p
+{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.FeaturedRestaurant .Button img
+{
+    width: 9px;
+    height: 14px;
+}
+.SearchbyFood
+{
+    background: rgba(254, 250, 241, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 594px;
+}
+.SearchbyFood .Title-Items-Button
+{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.SearchbyFood .Header_SearchbyFood
+{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
+.SearchbyFood .title
+{
+    color: rgba(33, 33, 33, 1);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 112.00000000000001%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.SearchbyFood .Buttons
+{
+    display: flex;
+    gap: 26.5px;
+}
+.SearchbyFood .ViewAll
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 76px;
+    border-radius: 56px;
+    gap: 10px;
+}
+.SearchbyFood .ViewAll p
+{
+    color: rgba(255, 179, 14, 1);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.SearchbyFood .ViewAll img
+{
+    width: 10px;
+    height: 16px;
+}
+.SearchbyFood .SliderButton
+{
+    display: flex;
+    gap: 16px;
+}
+.SearchbyFood .arrowLeft-Right
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 179, 14, 1);
+    border: 1px solid rgba(250, 170, 1, 1);
+    box-shadow: 0px 14px 32px 0px rgba(255, 178, 14, 0.29), 0px 5px 8px 0px rgba(222, 151, 0, 0.24);
+    width: 76px;
+    height: 76px;
+    border-radius: 92px;
+    border-width: 1px;
+}
+.SearchbyFood .arrowLeft-Right img
+{
+    width: 36px;
+    height: 36px;
+}
+.SearchbyFood .Items
+{
+    display: flex;
+    gap: 34.2px;
+}
+.SearchbyFood .Food
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+}
+.SearchbyFood .img
+{
+    width: 218px;
+    height: 218px;
+    border-radius: 144px;
+}
+.SearchbyFood .name
+{
+    color: rgba(66, 66, 66, 1);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.Features
+{
+    background: rgba(254, 239, 208, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 486px;
+}
+.Features .Card
+{
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 27px 82px 0px rgba(255, 174, 0, 0.28), 0px 14px 15px 0px rgba(255, 174, 0, 0.01);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 46px;
+    padding: 55px;
+    gap: 55px;
+}
+.Features .Box
+{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.Features .icon
+{
+    width: 136px;
+    height: 136px;
+}
+.Features .text
+{
+    background-image: linear-gradient(92.84deg, #FB3C00 -47.72%, #FFB800 136.81%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.Features .line
+{
+    border: none;
+    background: rgba(207, 207, 207, 1);
+    width: 2px;
+    height: 96px;
+}
+.Details
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 1936px;
+    gap: 80px;
+}
+.Details .DetailsCard
+{
+    display: flex;
+    box-shadow: 0px 27px 82px 0px rgba(124, 124, 124, 0.28), 0px 14px 15px 0px rgba(124, 124, 124, 0.06);
+    border-radius: 16px;
+    overflow: hidden;
+}
+.Details .Left
+{
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 1);
+    padding: 56px;
+    gap: 46px;
+}
+.Details .Text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 407px;
+    height: 292px;
+    gap: 19px;   
+}
+.Details .Text p
+{
+    width: auto;
+    height: auto;
+}
+.Details .title
+{
+    color: rgba(53, 53, 53, 1);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 112.00000000000001%;
+    letter-spacing: 0%;
+}
+span
+{
+    color: rgba(255, 179, 14, 1);
+}
+.Details .body
+{
+    color: rgba(97, 97, 97, 0.69);
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0%;
+}
+.Details .Button
+{
+    background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 14px 32px 0px rgba(255, 178, 14, 0.29), 0px 5px 8px 0px rgba(222, 151, 0, 0.24);
+    border-radius: 8px;
+    padding: 21px 112px;
+    gap: 10px;
+}
+.Details .Button p
+{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.Details .Button img
+{
+    width: 10px;
+    height: 16px;
+}
+.Details .Right
+{
+    width: 960px;
+    height: 512px;
+}
+.CTA
+{
+    background-image: url("CTA_Image.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    background-size: cover;     
+    background-position: center;
+    opacity: 0.9;
+}
+.CTA .Box
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 62px;
+}
+.CTA .title
+{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    font-size: 57px;
+    line-height: 97%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.CTA .Button
+{
+    background: linear-gradient(93.41deg, #F17228 -5.63%, #F15E28 100.8%);
+    box-shadow: 0px 14px 32px 0px rgba(255, 178, 14, 0.29), 0px 5px 8px 0px rgba(222, 151, 0, 0.24);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 22px 25px;
+    border-radius: 8px;
+    gap: 10px;
+}
+.CTA .Button p
+{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.CTA .Button img
+{
+    width: 10px;
+    height: 16px;
+}
+.Footer
+{
+    background: rgba(33, 33, 33, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 808px;
+    gap: 60px;
+}
+.Footer .OurTopCities
+{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.Footer .title
+{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.Footer .Items
+{
+    display: flex;
+    gap: 234.75px;
+}
+.Footer .OurTopCitiesMenuItems
+{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.Footer .text
+{
+    color: rgba(245, 245, 245, 1);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.Footer .Menu-Subscription-Rights
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.Footer .line
+{
+    border: 2px solid rgba(66, 66, 66, 1);
+    height: 0px;
+    width: 1524px;
+}
+.Footer .Menu-Subscription
+{
+    display: flex;
+    justify-content: space-between;
+    width: 1524px;
+}
+.Footer .Menu
+{
+    display: flex;
+    gap: 116.5px;
+}
+.Footer .FooterMenuItems
+{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.Footer .Menu .Items
+{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.Footer .Follow-Subscription
+{
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+}
+.Footer .FollowUs
+{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.Footer .FollowUs .title
+{
+    color: rgba(245, 245, 245, 1);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
+.Footer .Icons
+{
+    display: flex;
+    gap: 16px;
+}
+.Footer .Icons .icon
+{
+    width: 24px;
+    height: 24px;
+}
+.Footer .Subscription
+{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.Footer .Subscription .text
+{
+    color: rgba(187, 187, 187, 1);
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0%;
+}
+.Footer .TextField-Button
+{
+    display: flex;
+    gap: 16px;
+}
+.Footer .TextField
+{
+    background: rgba(66, 66, 66, 1);
+    display: flex;
+    align-items: center;
+    width: 334px;
+    height: 60px;
+    border-radius: 8px;
+    gap: 10px;
+}
+.Footer .TextField img
+{
+    width: 24px;
+    height: 14px;
+    margin-left: 16px;
+}
+.Footer .TextField p
+{
+    color: rgba(173, 173, 173, 1);
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0%;
+}
+.Footer .Button
+{
+    background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+    box-shadow: 0px 14px 32px 0px rgba(255, 178, 14, 0.29), 0px 5px 8px 0px rgba(222, 151, 0, 0.24); 
+    border-radius: 8px;
+    padding: 21px 27px;
+}
+.Footer .Button p
+{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.Footer .HR-Rights
+{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.Footer .Rights
+{
+    display: flex;
+    justify-content: space-between;
+    width: 1524px;
+}
+.Footer .AllRights
+{
+    display: flex;
+    gap: 10px;
+}
+.Footer .Copyright
+{
+    display: flex;
+    gap: 10px;
+}
+.Footer .Copyright p
+{
+    color: rgba(245, 245, 245, 1);
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.Footer .Copyright img
+{
+    width: 16px;
+    height: 18px;
+}
+.Footer .Company
+{
+    color: rgba(245, 245, 245, 1);
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.Footer .MadeBy
+{
+    display: flex;
+    gap: 8px;
+}
+.Footer .MadeBy p
+{
+    color: rgba(245, 245, 245, 1);
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.Footer .MadeBy .icon-heart
+{
+    color: #ffb300;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.Footer .ThemeWagon
+{
+    color: rgba(245, 245, 245, 1);
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
